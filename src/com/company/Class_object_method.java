@@ -7,7 +7,7 @@ public class Class_object_method {
         dog.bark();
         dog.foot();
         dog.small_tails();
-        int x = dog.sum(5,3);
+        int x = dog.sum();
         System.out.println(x);
     }
 }

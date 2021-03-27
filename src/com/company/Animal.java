@@ -1,6 +1,9 @@
 package com.company;
 
 public class Animal {
+    private int a = 5;
+    private int b  = 7;
+
     void foot(){
         System.out.println("its has four feet");
     }
@@ -10,7 +13,7 @@ public class Animal {
     void bark(){
         System.out.println("wooh wooh");
     }
-    int sum(int a,int b){
+    int sum(){
         return a+b;
     }
 }
