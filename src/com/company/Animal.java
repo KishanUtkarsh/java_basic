@@ -1,6 +1,6 @@
 package com.company;
 
-public class Animal {
+class Animal {
     private int a = 5;
     private int b  = 7;
 
@@ -16,4 +16,7 @@ public class Animal {
     int sum(){
         return a+b;
     }
+
 }
+
+
