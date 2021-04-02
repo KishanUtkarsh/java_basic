@@ -1,5 +1,6 @@
 package com.company;
 
+// method overriding
 class jaanwar {
 
     public void makesound(){
@@ -10,12 +11,12 @@ class Cat extends jaanwar{
 
     public void makesound() {
         System.out.println("cat makes sound :meeao");
-    }
+    } // overriding
 }
 class kutta extends jaanwar{
     public void makesound(){
         System.out.printf("dogs makes sound : woooh");
-    }
+    } // overriding
 }
 public class polimorphism{
     public static void main(String[] args){
