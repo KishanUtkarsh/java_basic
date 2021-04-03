@@ -8,12 +8,13 @@ class jaanwar {
     }
 }
 class Cat extends jaanwar{
-
+    @Override
     public void makesound() {
         System.out.println("cat makes sound :meeao");
     } // overriding
 }
 class kutta extends jaanwar{
+    @Override
     public void makesound(){
         System.out.printf("dogs makes sound : woooh");
     } // overriding
