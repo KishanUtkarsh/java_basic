@@ -28,9 +28,11 @@ public class exception_handling {
     public static void main(String[] args){
         final Scanner sc = new Scanner(System.in);
         final MyCalculator mc = new MyCalculator();
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+
+
         try {
+            int x = sc.nextInt();
+            int y = sc.nextInt();
             System.out.println(mc.power(x ,y));
         }
         catch (Exception e){
