@@ -9,5 +9,7 @@ public class Hash_Map {
         hash.put("Ankit Sharma",6548);
         System.out.println(hash.get("kishan kumar"));
         System.out.println(hash.size());
+        System.out.println(hash.values());
+        
     }
 }
